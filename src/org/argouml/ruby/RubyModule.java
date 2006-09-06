@@ -1,4 +1,4 @@
-// $Id: RubyModule.java,v 1.1 2006/02/28 20:56:45 linus Exp $
+// $Id$
 // Copyright (c) 2006 The Regents of the University of California. All
 // Rights Reserved. Permission to use, copy, modify, and distribute this
 // software and its documentation without fee, and without a written
@@ -41,7 +41,8 @@ public class RubyModule implements ModuleInterface {
      * @see org.argouml.moduleloader.ModuleInterface#enable()
      */
     public boolean enable() {
-        GeneratorManager.getInstance().addGenerator(myLang, new RubyGenerator());
+        GeneratorManager.getInstance().addGenerator(myLang, 
+                new RubyGenerator());
         return true;
     }
 
@@ -70,7 +71,7 @@ public class RubyModule implements ModuleInterface {
         case AUTHOR:
             return "Jacek Bojarski";
         case VERSION:
-        	return "0.0.1";
+            return "0.0.1";
         }
         return null;
     }
