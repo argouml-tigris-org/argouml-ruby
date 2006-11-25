@@ -221,7 +221,7 @@ public class RubyGenerator implements CodeGenerator {
         }
     }
 
-    /**
+    /*
      * @see org.argouml.uml.generator.CodeGenerator#generate(java.util.Collection,
      *      boolean)
      */
@@ -238,7 +238,7 @@ public class RubyGenerator implements CodeGenerator {
         return res;
     }
 
-    /**
+    /*
      * @see org.argouml.uml.generator.CodeGenerator#generateFiles(java.util.Collection,
      *      java.lang.String, boolean)
      */
@@ -266,7 +266,7 @@ public class RubyGenerator implements CodeGenerator {
         return res;
     }
 
-    /**
+    /*
      * @see org.argouml.uml.generator.CodeGenerator#generateFileList(java.util.Collection,
      *      boolean)
      */

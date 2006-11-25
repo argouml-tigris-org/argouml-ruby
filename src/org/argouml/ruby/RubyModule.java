@@ -37,7 +37,7 @@ import org.argouml.uml.generator.Language;
 public class RubyModule implements ModuleInterface {
     private Language myLang = GeneratorHelper.makeLanguage("Ruby"); 
 
-    /**
+    /*
      * @see org.argouml.moduleloader.ModuleInterface#enable()
      */
     public boolean enable() {
@@ -46,7 +46,7 @@ public class RubyModule implements ModuleInterface {
         return true;
     }
 
-    /**
+    /*
      * @see org.argouml.moduleloader.ModuleInterface#disable()
      */
     public boolean disable() {
@@ -54,14 +54,14 @@ public class RubyModule implements ModuleInterface {
         return true;
     }
 
-    /**
+    /*
      * @see org.argouml.moduleloader.ModuleInterface#getName()
      */
     public String getName() {
         return "Ruby";
     }
 
-    /**
+    /*
      * @see org.argouml.moduleloader.ModuleInterface#getInfo(int)
      */
     public String getInfo(int type) {
