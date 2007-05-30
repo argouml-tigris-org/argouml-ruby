@@ -133,7 +133,7 @@ public class RubyGenerator implements CodeGenerator {
             String defaultValue = "";
             String attrName = Model.getFacade().getName(attr);
             // is static?
-            if (Model.getFacade().isClassifierScope(attr)) {
+            if (Model.getFacade().isStatic(attr)) {
                 varType += "@";
                 defaultValue = "=nil";
             }    		
