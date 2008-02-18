@@ -5,4 +5,5 @@ Bundle-SymbolicName: org.argouml.module.ruby
 Bundle-Version: 1.0.0
 Bundle-Localization: plugin
 Bundle-Vendor: %pluginProvider
-Require-Bundle: org.argouml
+Require-Bundle: org.argouml.app,
+ org.argouml.core.model
