@@ -30,8 +30,8 @@ this directory and built using the package target or downloaded a release
 and unpacked in a directory argouml/build alongside this one. Like this:
 
 argouml-ruby/build.xml <- This file.
-argouml/build/argouml-model.jar
-argouml/build/log4j.jar
+argouml/src/argouml-build/build/argouml-model.jar
+argouml/src/argouml-build/build/log4j.jar
 etc.
   -->
 
@@ -48,7 +48,7 @@ etc.
     <property name="optimize" value="yes"/>
 
     <property name="argo.root.dir" value="../argouml"/>
-    <property name="argo.build.dir" value="${argo.root.dir}/build"/>
+    <property name="argo.build.dir" value="${argo.root.dir}/src/argouml-build/build"/>
 
     <property name="result.jar" value="argouml-ruby.jar"/>
   
