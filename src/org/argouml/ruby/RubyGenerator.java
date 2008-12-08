@@ -1,5 +1,5 @@
 // $Id$
-// Copyright (c) 2006 The Regents of the University of California. All
+// Copyright (c) 2006-2008 The Regents of the University of California. All
 // Rights Reserved. Permission to use, copy, modify, and distribute this
 // software and its documentation without fee, and without a written
 // agreement is hereby granted, provided that the above copyright notice
@@ -106,7 +106,7 @@ public class RubyGenerator implements CodeGenerator {
         Iterator iter = generalizations.iterator();
         while (iter.hasNext()) {
             Object generalization = iter.next();
-            Object generalizableElement = Model.getFacade().getParent(
+            Object generalizableElement = Model.getFacade().getGeneral(
                     generalization);
             if (generalizableElement != null) {
                 baseClass = generateClassifierName(generalizableElement);
