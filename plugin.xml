@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.argouml.argoeclipse.core.codeGenerator">
+      <language
+            id="org.argouml.ruby"
+            name="org.argouml.ruby">
+      </language>
+      <generator
+            class="org.argouml.ruby.RubyGenerator"
+            id="org.argouml.ruby"
+            language="org.argouml.ruby"
+            name="Ruby">
+      </generator>
+   </extension>
+
+</plugin>

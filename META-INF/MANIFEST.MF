@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.argouml.module.ruby
-Bundle-Version: 1.0.0
+Bundle-SymbolicName: org.argouml.module.ruby;singleton:=true
+Bundle-Version: 0.28.0.qualifier
 Bundle-Localization: plugin
 Bundle-Vendor: %pluginProvider
 Require-Bundle: org.argouml.app,
  org.argouml.core.model
+Eclipse-LazyStart: true
